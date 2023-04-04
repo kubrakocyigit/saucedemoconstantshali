@@ -40,7 +40,7 @@ def EKRANGORUNTUSU(driver, name):
         os.mkdir(directory)
     filename = f"{directory}/{name}_{now}.png"
     driver.save_screenshot(filename)
-#sağ taraf doğrumu senin
+     
 def test_username_ve_password_null(driver):
         
         U_ID = driver.find_element(By.ID, ID_USER)
